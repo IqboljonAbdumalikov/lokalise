@@ -58,3 +58,57 @@ h1, h2, h3, h4 {
     margin: 0 auto;
 }
 
+/*SITE_HEADER*/
+.site-header {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.sitenav {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 24px;
+}
+.sitenav__logo {
+    display: block;
+}
+.link--logo {
+    margin-right: 51px;
+}
+.sitenav__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-right: auto;
+}
+.sitenav__item:not(.sitenav__item:last-child) {
+    margin-right: 42px;
+}
+.sitenav__link {
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.sitenav__buttons {
+    display: flex;
+}
+.sitenav__button {
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    line-height: 45px;
+    padding: 1px 36px;
+}
+.sitenav__button--first {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.sitenav__button--second {
+    background-color: var(--button-bg-color);
+    border: 1px solid transparent;
+    color: #fff;
+    margin-left: 10px;
+}
+
