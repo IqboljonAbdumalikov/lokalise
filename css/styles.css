@@ -1,0 +1,60 @@
+/* FONT FAMIlY  */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v15-latin-regular.woff2") format("woff2"),
+       url("../fonts/poppins-v15-latin-regular.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v15-latin-500.woff2") format("woff2"),
+       url("../fonts/poppins-v15-latin-500.woff") format("woff"); 
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v15-latin-600.woff2") format("woff2"),
+       url("../fonts/poppins-v15-latin-600.woff") format("woff"); 
+}
+ /* CUSTOM PROPERTIES  */
+:root {
+    --button-bg-color: #ff6336;
+    --font-family: "Poppins", "Arial", sans-serif;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #fff;
+    color: #222;
+}
+h1, h2, h3, h4 {
+    font-weight: 600;
+    margin: 0;
+}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+/* CONTAINER */
+.container {
+    max-width: 1378px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
